@@ -4,7 +4,7 @@
 Luke | Hva | Løst | Luke | Hva | Løst
 :------------ | :------------- | :------------- | :------------ | :------------- | :-------------
  1 | [Ønskeliste fra Zimbabwe](01.py) | :heavy_check_mark: | 13 | | :x:
- 2 | | :x: | 14 | | :x:
+ 2 | [Hundre alvedager](02.py) | :x: | 14 | | :x:
  3 | [Optimalisere papirbruk](03.py) | :heavy_check_mark: | 15 | | :x:
  4 | | :x: | 16 | | :x:
  5 | | :x: | 17 | | :x:
