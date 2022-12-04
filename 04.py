@@ -1,29 +1,30 @@
 import numpy as np
+import multiprocessing
 
 
 def main():
-    assert (r := solve(1000)) == 29137, f'{r} != 29137'
-    print(solve(10_000_000))
+    cpu = 16
+    size = 10_000_000 // cpu
+    jobs = [(i*size, (i+1)*size) for i in range(cpu)]
+
+    pool = multiprocessing.Pool(cpu).map(multi_sum, jobs)
+    print(sum(pool))
 
 
-def solve(n):
-    return sum(multipalindrome(x) for x in range(n))
+def multi_sum(args):
+    return sum(multipalindrome(x) for x in range(args[0], args[1]))
 
 
 def multipalindrome(n):
-    palindromes = (palindrome(n, base) for base in range(2, 17))
+    palindromes = (palindrome(np.base_repr(n, base)) for base in range(2, 17))
     count = 0
     for p in palindromes:
-        if p: count += 1
+        count += p
         if count == 3: return n
     return 0
 
 
-def palindrome(n, base):
-    forwards = np.base_repr(n, base)
-    backwards = forwards[::-1]
-
-    return forwards == backwards
+def palindrome(n): return n == n[::-1]
 
 
 if __name__ == '__main__':
