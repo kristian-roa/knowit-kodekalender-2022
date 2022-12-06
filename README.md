@@ -8,7 +8,7 @@ Luke | Hva | Løst | Luke | Hva | Løst
  3 | [Optimalisere papirbruk](03.py) | :heavy_check_mark: | 15 | | :x:
  4 | [Multipalindromer](04.py) | :heavy_check_mark: | 16 | | :x:
  5 | [Shufflemester](05.py) | :heavy_check_mark: | 17 | | :x:
- 6 | | :x: | 18 | | :x:
+ 6 | [Julenisse Valg](06.py) | :heavy_check_mark: | 18 | | :x:
  7 | | :x: | 19 | | :x:
  8 | | :x: | 20 | | :x:
  9 | | :x: | 21 | | :x:
