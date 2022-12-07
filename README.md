@@ -9,7 +9,7 @@ Luke | Hva | Løst | Luke | Hva | Løst
  4 | [Multipalindromer](04.py) | :heavy_check_mark: | 16 | | :x:
  5 | [Shufflemester](05.py) | :heavy_check_mark: | 17 | | :x:
  6 | [Julenisse Valg](06.py) | :heavy_check_mark: | 18 | | :x:
- 7 | | :x: | 19 | | :x:
+ 7 | [Ond kryptering](07.py) | :heavy_check_mark: | 19 | | :x:
  8 | | :x: | 20 | | :x:
  9 | | :x: | 21 | | :x:
 10 | | :x: | 22 | | :x:
