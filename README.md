@@ -10,7 +10,7 @@ Luke | Hva | Løst | Luke | Hva | Løst
  5 | [Shufflemester](05.py) | :heavy_check_mark: | 17 | | :x:
  6 | [Julenisse Valg](06.py) | :heavy_check_mark: | 18 | | :x:
  7 | [Ond kryptering](07.py) | :heavy_check_mark: | 19 | | :x:
- 8 | [Operasjon redd reinsdyrene](09.py) | :heavy_check_mark: | 20 | | :x:
+ 8 | [Operasjon redd reinsdyrene](08.py) | :heavy_check_mark: | 20 | | :x:
  9 | [Julebrusmaskiner](09.py) | :heavy_check_mark: | 21 | | :x:
 10 | | :x: | 22 | | :x:
 11 | | :x: | 23 | | :x:
