@@ -37,9 +37,7 @@ def get_parity_idxs(n, mask):
 
     for i, b in enumerate(mask.flatten()):
         if b == 'P':
-            inc = False
-            counter = -1
-            parity.append((i, [d for d in list(range(n*n))[i:] if (inc := not inc if (counter := counter + 1 if counter < i-1 else 0) == 0 else inc)]))
+            parity.append((i, [e for part in np.array_split(range(n**2), n**2 // i)[1::2] for e in part]))
 
     return parity
 
