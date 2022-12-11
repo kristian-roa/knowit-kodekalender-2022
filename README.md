@@ -12,6 +12,6 @@ Luke | Hva | Løst | Luke | Hva | Løst
  7 | [Ond kryptering](07.py) | :heavy_check_mark: | 19 | | :x:
  8 | [Operasjon redd reinsdyrene](08.py) | :heavy_check_mark: | 20 | | :x:
  9 | [Julebrusmaskiner](09.py) | :heavy_check_mark: | 21 | | :x:
-10 | | :x: | 22 | | :x:
+ 10 | [Reinsdyrs fremtid](10.py) | :heavy_check_mark: | 22 | | :x:
 11 | | :x: | 23 | | :x:
 12 | | :x: | 24 | | :x:
