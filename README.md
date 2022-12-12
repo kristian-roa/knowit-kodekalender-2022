@@ -14,4 +14,4 @@
 | 9    | [Julebrusmaskiner](09.py)           | :heavy_check_mark: | 21   |     | :x:  |
 | 10   | [Reinsdyrs fremtid](10.py)          | :heavy_check_mark: | 22   |     | :x:  |
 | 11   | [Nissesikker data](11.py)           | :heavy_check_mark: | 23   |     | :x:  |
-| 12   |                                     | :x:                | 24   |     | :x:  |
+| 12   | Kryptiske Pokemon                   | :heavy_check_mark: | 24   |     | :x:  |
